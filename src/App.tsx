@@ -121,11 +121,7 @@ const App = () => {
   };
 
   const boom = () => {
-    const end = Date.now() + 2500; // Shorter duration
-    (function f() {
-      // Fewer particles per frame for better performance
-      if (Date.now() < end) requestAnimationFrame(f);
-    })();
+    // Confetti disabled by user, but keeping the function handle for compatibility
   };
 
   const handleOpen = () => {
@@ -183,8 +179,8 @@ const App = () => {
                   بسم الله الرحمٰن الرحيم
                 </h2>
 
-                <h1 className="gold-text" style={{ fontSize: '2.5rem', fontWeight: 900, marginBottom: '2.5rem', lineHeight: 1.2 }}>
-                  دعوة زفاف<br/>المهندس محمود
+                <h1 className="gold-text" style={{ fontSize: '2.2rem', fontWeight: 900, marginBottom: '2.5rem', lineHeight: 1.4 }}>
+                  دعوة سهرة شباب و زفاف<br/>المهندس محمود سمرة
                 </h1>
 
                 <motion.button
@@ -239,7 +235,7 @@ const App = () => {
           </h4>
 
           <h1 className="gold-text" style={{ fontSize: 'clamp(3rem, 8vw, 7rem)', fontWeight: 900, lineHeight: 1.1, marginBottom: '1.5rem' }}>
-            المهندس محمود
+            المهندس محمود سمرة
           </h1>
 
           <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem', marginBottom: '1.5rem' }}>
@@ -342,7 +338,7 @@ const App = () => {
              تتشرف عائلة  سمرة بدعوتكم لمشاركتنا فرحة العمر في زفاف ابنهم
             </p>
             <h2 className="gold-text" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 900, marginBottom: '2rem' }}>
-              المهندس محمود
+              المهندس محمود سمرة
             </h2>
             <p style={{ color: '#8b9cc0', fontFamily: 'Amiri', fontStyle: 'italic', borderTop: '1px solid rgba(255,255,255,.05)', paddingTop: '1.5rem', fontSize: '1.1rem' }}>
               يتم الفرح بقدومكم.. ودامت بيوتكم عامرة بالأفراح
