@@ -124,8 +124,6 @@ const App = () => {
     const end = Date.now() + 2500; // Shorter duration
     (function f() {
       // Fewer particles per frame for better performance
-      confetti({ particleCount: 3, angle: 60,  spread: 55, origin: { x: 0 }, colors: ['#d4af37','#f3d498','#fff'] });
-      confetti({ particleCount: 3, angle: 120, spread: 55, origin: { x: 1 }, colors: ['#d4af37','#f3d498','#fff'] });
       if (Date.now() < end) requestAnimationFrame(f);
     })();
   };
