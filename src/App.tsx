@@ -235,7 +235,7 @@ const App = () => {
           </motion.div>
 
           <h4 style={{ fontSize: '1rem', letterSpacing: '.6em', color: '#f3d498', fontFamily: 'Amiri', marginBottom: '1rem' }}>
-            دعوة لحضور حفل زفاف
+            دعوة لحضور حفل الزفاف وسهرة الشباب 🔥
           </h4>
 
           <h1 className="gold-text" style={{ fontSize: 'clamp(3rem, 8vw, 7rem)', fontWeight: 900, lineHeight: 1.1, marginBottom: '1.5rem' }}>
@@ -339,7 +339,7 @@ const App = () => {
               بسم الله الرحمٰن الرحيم
             </h4>
             <p style={{ fontSize: 'clamp(1.1rem, 2.2vw, 1.5rem)', color: '#c8cfe0', fontFamily: 'Amiri', lineHeight: 2.2, marginBottom: '2rem' }}>
-              يتشرف أبناء الحاج طيب الله ثراه بدعوتكم لمشاركتنا فرحة عمرنا في زفاف ابنهم البار
+             تتشرف عائلة  سمرة بدعوتكم لمشاركتنا فرحة العمر في زفاف ابنهم
             </p>
             <h2 className="gold-text" style={{ fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 900, marginBottom: '2rem' }}>
               المهندس محمود
